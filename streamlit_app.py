@@ -18,25 +18,25 @@ col1, col2, col3, col4 = st.columns(4)
 
 with col1:
     st.header("Annisa")
-    st.image("https://via.placeholder.com/150", use_container_width=True)
+    st.image("images/annisa.jpg", use_container_width=True)
     if st.button('NRP Annisa'):
         st.write('220534024')
 
 with col2:
     st.header("Amanda")
-    st.image("https://via.placeholder.com/150", use_container_width=True)
+    st.image("images/amanda.jpg", use_container_width=True)
     if st.button('NRP Amanda'):
         st.write('220534025')
 
 with col3:
     st.header("Widya")
-    st.image("https://via.placeholder.com/150", use_container_width=True)
+    st.image("images/widya.jpg", use_container_width=True)
     if st.button('NRP Widya'):
         st.write('220534026')
 
 with col4:
     st.header("Noviyanti")
-    st.image("https://via.placeholder.com/150", use_container_width=True)
+    st.image("images/novi.jpg", use_container_width=True)
     if st.button('NRP Novi'):
         st.write('220534028')
 
